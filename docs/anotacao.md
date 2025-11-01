@@ -1,4 +1,4 @@
-# Anotações
+# Anotações aula 2
 ## Como a JVM permite multiplataforma
 No java ao invés de precisar criar uma aplicação para cada tipo de distro, como linux, windows, macOS, etc, você cria uma única aplicação que roda em uma JVM (Java Virtual Machine) e o que se adapta a cada distro é a JVM, que é específica para cada sistema operacional. Dessa forma, o desenvolvedor escreve o código uma única vez e ele pode ser executado em qualquer sistema que tenha uma JVM compatível instalada.
 
@@ -9,3 +9,22 @@ Java é uma linguagem compilada e interpretada, ou seja, você escreve o código
 JDK = Java Development Kit -> JVM, compilador, ferramentas de debug. Geralmente se usa quando vai desenvolver, porque já vem tudo isso instalado junto.
 ## O que é o JRE?
 JRE = Java Runtime Environment -> JVM. Geralmente se usa apenas quando precisa rodar a aplicação.
+
+---
+
+# Anotações aula 5
+
+## Como rodar um código java da maneira mais simples possível
+Criar um arquivo `.java` com mesmo nome da classe, seguindo os padrões do JAVA.
+```Java
+public class OlaMundoDoido {
+  public static void main (String[] args) {
+    System.out.println("Teste teteste tteete");
+  }
+} 
+```
+Compilar esse arquivo com o `javac` para gerar o seu bytecode `.class`, com o bytecode `.class` consegue rodar a aplicação com a JVM usando o comando `java nomeDoArquivo` sem usar o prefixo `.class`. Com isso terá o resultado no console: 
+```Bash
+Teste teteste tteete 
+```
+Sempre que fizer uma modificação tem que rodar novamente o `javac` para compilar de novo e conseguir ver as modificações no bytecode `.class`.
