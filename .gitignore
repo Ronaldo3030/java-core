@@ -1,0 +1,94 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs and temp
+*.log
+hs_err_pid*
+tmp/
+temp/
+*.tmp
+
+# Build output
+/target/
+/build/
+/out/
+/bin/
+
+# Maven
+/.mvn/
+/pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+/**/build/
+/gradle-app.setting
+# manter o wrapper no repositório
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA
+/.idea/
+/*.iws
+/*.iml
+/*.ipr
+workspace.xml
+tasks.xml
+# pasta de saída da IDE
+/out/
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files created by editors
+*~
+*.swp
+*.swo
+.*.sw?
+# backup files
+*.bak
+
+# Test reports and coverage
+/coverage/
+jacoco.exec
+*.lcov
+/test-results/
+
+# IDE-independent metadata
+*.log
+.idea_modules/
+
+# Others
+*.iml
+*.class
+.settings/
+
+# Keep this file tracked
+!.gitignore
