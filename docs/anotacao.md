@@ -7,6 +7,7 @@ Java é uma linguagem compilada e interpretada, ou seja, você escreve o código
 
 ## O que é o JDK?
 JDK = Java Development Kit -> JVM, compilador, ferramentas de debug. Geralmente se usa quando vai desenvolver, porque já vem tudo isso instalado junto.
+
 ## O que é o JRE?
 JRE = Java Runtime Environment -> JVM. Geralmente se usa apenas quando precisa rodar a aplicação.
 
@@ -28,3 +29,11 @@ Compilar esse arquivo com o `javac` para gerar o seu bytecode `.class`, com o by
 Teste teteste tteete 
 ```
 Sempre que fizer uma modificação tem que rodar novamente o `javac` para compilar de novo e conseguir ver as modificações no bytecode `.class`.
+
+---
+
+# Anotação aula 10
+## Tipos primitivos
+Os tipos primitivos são os tipos que já vem como base do Java, e são palavras reservadas, são eles: `int, float, double, char, byte, short, long, boolean`.
+
+No java a atribuição de uma variável funciona da seguinte maneira. Quando você declara uma variável de tipo primitivo, a JVM já reserva uma quantidade de espaço grande o suficiente para armazenar um valor daquele tipo *(por exemplo, 4 bytes para um int)*, e quando você atribui um valor como 10 `age = 10`, você está alocando o valor 10 dentro do espaço da memória de `age`.

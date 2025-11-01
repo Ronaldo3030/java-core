@@ -1,6 +1,6 @@
 package br.com.projeto.introducao;
 
-public class Main {
+public class Aula01Main {
     static void main(String[] args) {
         System.out.println("TETESTEs");
     }
